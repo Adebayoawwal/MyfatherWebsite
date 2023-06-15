@@ -1,0 +1,126 @@
+body{
+    background: rgb(3, 3, 46);
+    color: rgb(211, 208, 208);
+}
+.s{
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+}
+.solid{
+    display: flex;
+    gap: 64px;
+}
+.d{
+    text-decoration: none;
+    font-weight: bold;  
+}
+button{
+    width: 102px;
+    height: 33px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #0a0606;
+    border-top: black;
+    border-left: black;
+}
+img{
+    position: relative;
+    left: 56%;
+    bottom: 203px;
+    border-radius: 340px;
+}
+.drop{
+    display: none;
+}
+.drop:hover a{
+     display: block;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#11173b,#1a0d08);
+    color: #fff;
+    padding: 1 px 0 20px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 12%;
+    padding: 3px;
+}
+.col:nth-child(2),:nth-child(3){
+    flex-basis: 15%;
+
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 20px;
+}
+form input{
+    width: 120px;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #ffff;
+    margin-right: 15px;
+    cursor: pointer;
+}
